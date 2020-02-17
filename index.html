@@ -1,0 +1,84 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Google Homepage or whatever</title>
+  </head>
+<style>
+.fruit {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  margin-top: 10%;
+  display: absolute;
+  }
+
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 39%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+</style>
+  <body>
+    <div><div class="column">
+      <a href="https://about.google/?fg=1&utm_source=google-CA&utm_medium=referral&utm_campaign=hp-header">About</a>
+      <a href="https://store.google.com/CA/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-CA">Store</a>
+     <div class="column"> <a href="https://mail.google.com/mail/u/0/?tab=wm&ogbl#inbox">Gmail</a>
+      <a href="https://www.google.ca/imghp?hl=en&tab=wi&authuser=0&ogbl">Images</a>
+      <a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/">Sign In</a></div></div>
+    </div>
+    <div><div class="fruit">
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="XXX">
+      <div class="wrap">
+   <div class="search">
+      <input type="text" class="searchTerm" placeholder="What are you looking for?">
+      <button type="submit" class="searchButton">
+     <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg></button>
+   </div>
+</div>
+</div>
+</div></div>
+  </body>
+  </html>
